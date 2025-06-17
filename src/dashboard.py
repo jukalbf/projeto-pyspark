@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import os
 
-# Carregando o modelo treinado
 modelo_path = "data/models/random_forest.pkl"
 
 if not os.path.exists(modelo_path):
@@ -14,11 +13,9 @@ if not os.path.exists(modelo_path):
 
 model = joblib.load(modelo_path)
 
-# Inicializando o app
 app = dash.Dash(__name__)
 app.title = "Previsor de Demanda de Transporte Público"
 
-# Layout com estilo
 app.layout = html.Div(style={'backgroundColor': '#f9f9f9', 'fontFamily': 'Arial'}, children=[
     
     html.H1("Sistema Inteligente de Transporte Público", 
@@ -68,7 +65,6 @@ app.layout = html.Div(style={'backgroundColor': '#f9f9f9', 'fontFamily': 'Arial'
              style={'textAlign': 'center', 'fontSize': '28px', 'marginTop': '40px', 'color': '#007ACC', 'fontWeight': 'bold'})
 ])
 
-# Função de predição
 @app.callback(
     Output('output_previsao', 'children'),
     [
@@ -83,6 +79,7 @@ app.layout = html.Div(style={'backgroundColor': '#f9f9f9', 'fontFamily': 'Arial'
         Input('input_desemprego', 'value')
     ]
 )
+
 def prever_demanda(n_clicks, codigo_cl, circular, pico, feriado, chuva, eventos, renda, desemprego):
     if n_clicks > 0:
         entrada = pd.DataFrame([{
@@ -99,6 +96,5 @@ def prever_demanda(n_clicks, codigo_cl, circular, pico, feriado, chuva, eventos,
         return f"Previsão de fluxo de passageiros: {predicao:.0f} passageiros"
     return ""
 
-# Rodando o servidor
 if __name__ == '__main__':
     app.run_server(debug=True)
