@@ -126,6 +126,18 @@ A previsão gerada representa a quantidade estimada de passageiros por viagem de
  Como os dados são simulados, a unidade de tempo pode ser adaptada (por hora, por dia, por faixa horária) em versões futuras, dependendo da granularidade dos dados reais disponíveis.
 
 
+
+
+ ## Possíveis Melhorias Futuras
+-Utilizar dados reais com granularidade por horário (via SPTrans)
+
+-Adicionar mapas interativos (geolocalização das linhas)
+
+-Treinamento com dados históricos reais de fluxo
+
+-Integração com eventos meteorológicos e culturais em tempo real
+
+
 ---
 
 ## 💻 Executando o Projeto
