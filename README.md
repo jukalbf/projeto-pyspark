@@ -102,6 +102,13 @@ O modelo Random Forest foi avaliado utilizando:
 - RMSE (Raiz do erro quadrático médio)
 - MAPE (Erro percentual absoluto médio)
 
+
+Exemplo de resultado de avaliação (com dados simulados):
+MAE: 36.72
+RMSE: 45.81
+MAPE: 8.12%
+
+
 ---
 
 ## 💻 Executando o Projeto
