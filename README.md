@@ -124,18 +124,4 @@ python src/ml_pipeline.py
 python dashboard/dashboard.py
 ```
 
----
-
-## 📦 Arquitetura de Entrega
-
-O projeto está pronto para entrega com:
-
-- Código 100% funcional
-- Pipeline ponta-a-ponta
-- Integração de dados reais
-- Machine Learning aplicado
-- Dashboard interativo
-
----
-
 ✅ Projeto desenvolvido para disciplina de Big Data - Análise Preditiva com Integração de APIs Públicas e Machine Learning.
