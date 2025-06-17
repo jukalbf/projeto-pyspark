@@ -37,21 +37,22 @@ O projeto simula a aplicação de técnicas de Big Data para otimização de rot
 
 projeto_pyspark/
 │
-├── data/
-│   ├── raw/               # Dados brutos (SPTrans, IBGE)
-│   ├── processed/         # Dados processados pelo PySpark
-│   └── models/            # Modelos treinados (.pkl)
+├── data/                      # Diretório de dados
+│   ├── raw/                   # Dados brutos (SPTrans, IBGE, etc.)
+│   ├── processed/             # Dados processados pelo PySpark
+│   └── models/                # Modelos treinados (.pkl)
 │
-├── src/
-│   ├── data_collection.py # Scripts de coleta de dados (APIs)
-│   ├── data_processing.py # Processamento e transformação com PySpark
-│   └── ml_pipeline.py     # Treinamento e salvamento do modelo
+├── src/                       # Código-fonte principal
+│   ├── data_collection.py     # Scripts de coleta de dados (APIs)
+│   ├── data_processing.py     # Processamento e transformação com PySpark
+│   └── ml_pipeline.py         # Pipeline de ML: treinamento e salvamento
 │
-├── dashboard/
-│   └── dashboard.py       # Código do Dashboard interativo
+├── dashboard/                 # Aplicação de visualização
+│   └── dashboard.py           # Código do Dashboard interativo
 │
-├── requirements.txt       # Dependências necessárias
-└── README.md              # Documentação do projeto
+├── requirements.txt           # Lista de dependências do projeto
+└── README.md                  # Documentação geral do projeto
+
 
 ---
 
