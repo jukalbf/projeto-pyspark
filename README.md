@@ -84,13 +84,13 @@ projeto_pyspark/
 | -------- | ------ | --------- |
 | codigo_cl | SPTrans | Código da linha |
 | circular | SPTrans | Linha circular (1=Sim, 0=Não) |
-| horario_pico | SPTrans | Se é horário de pico |
-| feriado | SPTrans | Se é feriado |
-| chuva_mm | SPTrans | Volume de chuva |
-| eventos_na_cidade | SPTrans | Quantidade de grandes eventos na cidade |
-| renda_media | IBGE(Simulado) | Renda média da população |
-| taxa_desemprego | IBGE(Simulado) | Taxa de desemprego local |
-| fluxo_passageiros | SPTrans | Quantidade de passageiros (variável alvo) |
+| horario_pico | Simulado | Se é horário de pico |
+| feriado | Simulado | Se é feriado |
+| chuva_mm | Simulado | Volume de chuva |
+| eventos_na_cidade | Simulado | Quantidade de grandes eventos na cidade |
+| renda_media | IBGE | Renda média da população |
+| taxa_desemprego | IBGE | Taxa de desemprego local |
+| fluxo_passageiros | Simulado | Quantidade de passageiros (variável alvo) |
 
 ---
 
