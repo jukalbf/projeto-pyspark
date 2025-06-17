@@ -98,10 +98,15 @@ projeto_pyspark/
 
 O modelo Random Forest foi avaliado utilizando:
 
-- MAE (Erro absoluto médio)
-- RMSE (Raiz do erro quadrático médio)
-- MAPE (Erro percentual absoluto médio)
+| Métrica  | Interpretação Rápida                          | Quando usar?                                     |
+| -------- | --------------------------------------------- | ------------------------------------------------ |
+| **MAE**  | Erro médio absoluto em unidades               | Boa no geral                                     |
+| **RMSE** | Erro médio com penalização para grandes erros | Quando grandes erros são críticos                |
+| **MAPE** | Erro percentual médio                         | Útil para comparar modelos em escalas diferentes |
 
+Mede a média dos erros absolutos entre os valores previstos e os reais.
+
+É uma métrica direta: quanto menor, melhor.
 
 Exemplo de resultado de avaliação (com dados simulados):
 MAE: 36.72
