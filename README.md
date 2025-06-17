@@ -52,7 +52,7 @@ projeto_pyspark/
 │
 ├── requirements.txt        # Dependências necessárias
 └── README.md               # Documentação do projeto
-
+```
 
 ## 🔗 Fontes de Dados Utilizadas
 
