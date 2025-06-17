@@ -35,6 +35,7 @@ O projeto simula a aplicação de técnicas de Big Data para otimização de rot
 
 ## 🗄 Estrutura de Diretórios
 
+```text
 projeto_pyspark/
 ├── data/
 │   ├── raw/                # Dados brutos (SPTrans, IBGE)
@@ -52,9 +53,6 @@ projeto_pyspark/
 ├── requirements.txt        # Dependências necessárias
 └── README.md               # Documentação do projeto
 
-
-
----
 
 ## 🔗 Fontes de Dados Utilizadas
 
