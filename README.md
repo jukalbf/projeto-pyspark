@@ -109,6 +109,16 @@ RMSE: 45.81
 MAPE: 8.12%
 
 
+## 💻 Dashboard Interativo
+O Dashboard foi desenvolvido com a biblioteca Dash (Plotly). Ele permite:
+
+Entrada manual de variáveis como código da linha, circularidade, chuva, feriado, etc.
+
+Visualização imediata da previsão de demanda de passageiros
+
+Interface responsiva e intuitiva para simulação de cenários
+
+
 ---
 
 ## 💻 Executando o Projeto
