@@ -119,6 +119,13 @@ Visualização imediata da previsão de demanda de passageiros
 Interface responsiva e intuitiva para simulação de cenários
 
 
+
+
+## Previsão: Unidade de Medida
+A previsão gerada representa a quantidade estimada de passageiros por viagem de ônibus, com base nas variáveis fornecidas.
+ Como os dados são simulados, a unidade de tempo pode ser adaptada (por hora, por dia, por faixa horária) em versões futuras, dependendo da granularidade dos dados reais disponíveis.
+
+
 ---
 
 ## 💻 Executando o Projeto
