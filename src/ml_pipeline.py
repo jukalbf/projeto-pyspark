@@ -22,8 +22,8 @@ df_ibge.rename(columns={
     'serie.2023': 'valor'
 }, inplace=True)
 
-renda_media_simulada = 2500  # simulação
-taxa_desemprego_simulada = 9  # simulação
+renda_media_simulada = 2500  # simulado
+taxa_desemprego_simulada = 9  # simulado
 
 df_sptrans['renda_media'] = renda_media_simulada
 df_sptrans['taxa_desemprego'] = taxa_desemprego_simulada
