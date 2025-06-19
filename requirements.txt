@@ -12,3 +12,4 @@ PyArrow>=4.0.0
 grpcio>=1.48.1
 protobuf>=5.26.1
 grpcio-status==1.64.0
+gunicorn
